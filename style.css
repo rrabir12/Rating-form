@@ -30,7 +30,7 @@ transition: 0.3s ease-in-out;
 }
 @media (max-width: 990px){
   .container .upper{
-    height: 460px !important;
+    height: 470px !important;
   }
   .container .rating{
     img{
