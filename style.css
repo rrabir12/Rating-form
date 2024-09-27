@@ -1,0 +1,41 @@
+
+
+.form-control-underline {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  background-color: transparent;
+  color: white; 
+  box-shadow: none;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+
+.form-control-underline:focus {
+  background-color: #484AA6; 
+  border-bottom: 2px solid #007bff; 
+  outline: none;
+  color: white; 
+}
+
+.form-control-underline:focus::placeholder {
+margin-top: 20px;
+transition: 0.3s ease-in-out;
+  opacity: 0; 
+}
+
+.form-control-underline::placeholder {
+  color: white;
+  opacity: 0.7; 
+}
+@media (max-width: 990px){
+  .container .upper{
+    height: 460px !important;
+  }
+  .container .rating{
+    img{
+      height: 40px !important;
+      width: 38px !important;
+    }
+  }
+}
